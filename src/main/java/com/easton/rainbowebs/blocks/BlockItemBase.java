@@ -1,4 +1,4 @@
-package com.easton.rainbowwebs.blocks;
+package com.easton.rainbowebs.blocks;
 
 
 import net.minecraft.block.Block;
