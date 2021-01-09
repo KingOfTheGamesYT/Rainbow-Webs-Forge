@@ -27,64 +27,38 @@ public class RegistryHandler {
 
     //Blocks
     public static final RegistryObject<Block> RED_COBWEB = BLOCKS.register("red_cobweb", ColorWeb::new);
+    public static final RegistryObject<Block> BLACK_COBWEB = BLOCKS.register("black_cobweb", ColorWeb::new);
+    public static final RegistryObject<Block> BLUE_COBWEB = BLOCKS.register("blue_cobweb", ColorWeb::new);
+    public static final RegistryObject<Block> BROWN_COBWEB = BLOCKS.register("brown_cobweb", ColorWeb::new);
+    public static final RegistryObject<Block> CYAN_COBWEB = BLOCKS.register("cyan_cobweb", ColorWeb::new);
+    public static final RegistryObject<Block> GRAY_COBWEB = BLOCKS.register("gray_cobweb", ColorWeb::new);
+    public static final RegistryObject<Block> GREEN_COBWEB = BLOCKS.register("green_cobweb", ColorWeb::new);
+    public static final RegistryObject<Block> LIGHT_BLUE_COBWEB = BLOCKS.register("light_blue_cobweb", ColorWeb::new);
+    public static final RegistryObject<Block> LIGHT_GRAY_COBWEB = BLOCKS.register("light_gray_cobweb", ColorWeb::new);
+    public static final RegistryObject<Block> LIME_COBWEB = BLOCKS.register("lime_cobweb", ColorWeb::new);
+    public static final RegistryObject<Block> MAGENTA_COBWEB = BLOCKS.register("magenta_cobweb", ColorWeb::new);
+    public static final RegistryObject<Block> ORANGE_COBWEB = BLOCKS.register("orange_cobweb", ColorWeb::new);
+    public static final RegistryObject<Block> PINK_COBWEB = BLOCKS.register("pink_cobweb", ColorWeb::new);
+    public static final RegistryObject<Block> PURPLE_COBWEB = BLOCKS.register("purple_cobweb", ColorWeb::new);
+    public static final RegistryObject<Block> YELLOW_COBWEB = BLOCKS.register("yellow_cobweb", ColorWeb::new);
 
-  //  public static final RegistryObject<Block> AMETHYST_BLOCK = BLOCKS.register("amethyst_block", ColorWeb::new);
-
-   // public static final RegistryObject<Block> SALT_ORE_BLOCK = BLOCKS.register("salt_ore_block", ColorWeb::new);
-
-    //public static final RegistryObject<Block> SAPPHIRE_ORE_BLOCK = BLOCKS.register("sapphire_ore_block", ColorWeb::new);
-
-    //public static final RegistryObject<Block> SAPPHIRE_BLOCK = BLOCKS.register("sapphire_block", ColorWeb::new);
-
-  //  public static final RegistryObject<Block> EYE_OF_ENDER_BLOCK = BLOCKS.register("eye_of_ender_block", ColorWeb::new);
-
- //   public static final RegistryObject<Block> ENDER_PEARL_BLOCK = BLOCKS.register("ender_pearl_block", ColorWeb::new);
-
-  //  public static final RegistryObject<Block> URANIUM_BLOCK = BLOCKS.register("uranium_block", ColorWeb::new);
-
-//    public static final RegistryObject<Block> TITANIUM_BLOCK = BLOCKS.register("titanium_block", ColorWeb::new);
-
-  //  public static final RegistryObject<Block> COMPRESSED_POPPY_BLOCK = BLOCKS.register("compressed_poppy_block", ColorWeb::new);
-
-  //  public static final RegistryObject<Block> STICKY_BLOCK = BLOCKS.register("sticky_block", ColorWeb::new);
-
- //   public static final RegistryObject<Block> DARK_BROWN_BLOCK = BLOCKS.register("dark_brown_block", ColorWeb::new);
-
-   // public static final RegistryObject<Block> DARK_ORANGE_BLOCK = BLOCKS.register("dark_orange_block", ColorWeb::new);
-
-   // public static final RegistryObject<Block> ORANGE_BLOCK = BLOCKS.register("orange_block", ColorWeb::new);
-
-  //  public static final RegistryObject<Block> BROWN_BLOCK = BLOCKS.register("brown_block", ColorWeb::new);
 
     //Block Items
     public static final RegistryObject<Item> RED_COBWEB_ITEM = ITEMS.register("red_cobweb", () -> new BlockItemBase(RED_COBWEB.get()));
+    public static final RegistryObject<Item> BLACK_COBWEB_ITEM = ITEMS.register("black_cobweb", () -> new BlockItemBase(BLACK_COBWEB.get()));
+    public static final RegistryObject<Item> BLUE_COBWEB_ITEM = ITEMS.register("blue_cobweb", () -> new BlockItemBase(BLUE_COBWEB.get()));
+    public static final RegistryObject<Item> BROWN_COBWEB_ITEM = ITEMS.register("brown_cobweb", () -> new BlockItemBase(BROWN_COBWEB.get()));
+    public static final RegistryObject<Item> CYAN_COBWEB_ITEM = ITEMS.register("cyan_cobweb", () -> new BlockItemBase(CYAN_COBWEB.get()));
+    public static final RegistryObject<Item> GRAY_COBWEB_ITEM = ITEMS.register("gray_cobweb", () -> new BlockItemBase(GRAY_COBWEB.get()));
+    public static final RegistryObject<Item> GREEN_COBWEB_ITEM = ITEMS.register("green_cobweb", () -> new BlockItemBase(GREEN_COBWEB.get()));
+    public static final RegistryObject<Item> LIGHT_BLUE_COBWEB_ITEM = ITEMS.register("light_blue_cobweb", () -> new BlockItemBase(LIGHT_BLUE_COBWEB.get()));
+    public static final RegistryObject<Item> LIGHT_GRAY_COBWEB_ITEM = ITEMS.register("light_gray_cobweb", () -> new BlockItemBase(LIGHT_GRAY_COBWEB.get()));
+    public static final RegistryObject<Item> LIME_COBWEB_ITEM = ITEMS.register("lime_cobweb", () -> new BlockItemBase(LIME_COBWEB.get()));
+    public static final RegistryObject<Item> MAGENTA_COBWEB_ITEM = ITEMS.register("magenta_cobweb", () -> new BlockItemBase(MAGENTA_COBWEB.get()));
+    public static final RegistryObject<Item> ORANGE_COBWEB_ITEM = ITEMS.register("orange_cobweb", () -> new BlockItemBase(ORANGE_COBWEB.get()));
+    public static final RegistryObject<Item> PINK_COBWEB_ITEM = ITEMS.register("pink_cobweb", () -> new BlockItemBase(PINK_COBWEB.get()));
+    public static final RegistryObject<Item> PURPLE_COBWEB_ITEM = ITEMS.register("purple_cobweb", () -> new BlockItemBase(PURPLE_COBWEB.get()));
+    public static final RegistryObject<Item> YELLOW_COBWEB_ITEM = ITEMS.register("yellow_cobweb", () -> new BlockItemBase(YELLOW_COBWEB.get()));
 
-  //  public static final RegistryObject<Item> AMETHYST_BLOCK_ITEM = ITEMS.register("amethyst_block", () -> new BlockItemBase(AMETHYST_BLOCK.get()));
-
-  //  public static final RegistryObject<Item> SALT_ORE_BLOCK_ITEM = ITEMS.register("salt_ore_block", () -> new BlockItemBase(SALT_ORE_BLOCK.get()));
-
-  //  public static final RegistryObject<Item> SAPPHIRE_ORE_BLOCK_ITEM = ITEMS.register("sapphire_ore_block", () -> new BlockItemBase(SAPPHIRE_ORE_BLOCK.get()));
-
-    //public static final RegistryObject<Item> SAPPHIRE_BLOCK_ITEM = ITEMS.register("sapphire_block", () -> new BlockItemBase(SAPPHIRE_BLOCK.get()));
-
-    //public static final RegistryObject<Item> EYE_OF_ENDER_BLOCK_ITEM = ITEMS.register("eye_of_ender_block", () -> new BlockItemBase(EYE_OF_ENDER_BLOCK.get()));
-
-  //  public static final RegistryObject<Item> ENDER_PEARL_BLOCK_ITEM = ITEMS.register("ender_pearl_block", () -> new BlockItemBase(ENDER_PEARL_BLOCK.get()));
-
-  //  public static final RegistryObject<Item> URANIUM_BLOCK_ITEM = ITEMS.register("uranium_block", () -> new BlockItemBase(URANIUM_BLOCK.get()));
-
- //   public static final RegistryObject<Item> TITANIUM_BLOCK_ITEM = ITEMS.register("titanium_block", () -> new BlockItemBase(TITANIUM_BLOCK.get()));
-
-  //  public static final RegistryObject<Item> COMPRESSED_POPPY_BLOCK_ITEM = ITEMS.register("compressed_poppy_block", () -> new BlockItemBase(COMPRESSED_POPPY_BLOCK.get()));
-
-  //  public static final RegistryObject<Item> STICKY_BLOCK_ITEM = ITEMS.register("sticky_block", () -> new BlockItemBase(STICKY_BLOCK.get()));
-
-  //  public static final RegistryObject<Item> DARK_BROWN_BLOCK_ITEM = ITEMS.register("dark_brown_block", () -> new BlockItemBase(DARK_BROWN_BLOCK.get()));
-
- //   public static final RegistryObject<Item> DARK_ORANGE_BLOCK_ITEM = ITEMS.register("dark_orange_block", () -> new BlockItemBase(DARK_ORANGE_BLOCK.get()));
-
-   // public static final RegistryObject<Item> ORANGE_BLOCK_ITEM = ITEMS.register("orange_block", () -> new BlockItemBase(ORANGE_BLOCK.get()));
-
-   // public static final RegistryObject<Item> BROWN_BLOCK_ITEM = ITEMS.register("brown_block", () -> new BlockItemBase(BROWN_BLOCK.get()));
 
 }

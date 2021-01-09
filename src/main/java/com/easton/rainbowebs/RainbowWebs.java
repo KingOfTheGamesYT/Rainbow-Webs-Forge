@@ -43,6 +43,20 @@ public class RainbowWebs {
     }
     private void doClientStuff(final FMLClientSetupEvent event) {
         RenderTypeLookup.setRenderLayer(RegistryHandler.RED_COBWEB.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(RegistryHandler.BLUE_COBWEB.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(RegistryHandler.BLACK_COBWEB.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(RegistryHandler.BROWN_COBWEB.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(RegistryHandler.CYAN_COBWEB.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(RegistryHandler.GRAY_COBWEB.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(RegistryHandler.GREEN_COBWEB.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(RegistryHandler.LIGHT_BLUE_COBWEB.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(RegistryHandler.LIGHT_GRAY_COBWEB.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(RegistryHandler.LIME_COBWEB.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(RegistryHandler.MAGENTA_COBWEB.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(RegistryHandler.ORANGE_COBWEB.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(RegistryHandler.PINK_COBWEB.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(RegistryHandler.PURPLE_COBWEB.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(RegistryHandler.YELLOW_COBWEB.get(), RenderType.getCutout());
 
     }
 }
