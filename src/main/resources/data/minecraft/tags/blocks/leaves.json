@@ -1,0 +1,27 @@
+{
+    "replace": false,
+    "values": [
+    	"minecraft:jungle_leaves",
+    	"minecraft:oak_leaves",
+    	"minecraft:spruce_leaves",
+    	"minecraft:dark_oak_leaves",
+    	"minecraft:acacia_leaves",
+    	"minecraft:birch_leaves",
+        "rainbowebs:black_cobweb",
+        "rainbowebs:red_cobweb",
+        "rainbowebs:orange_cobweb",
+        "rainbowebs:yellow_cobweb",
+        "rainbowebs:lime_cobweb",
+        "rainbowebs:green_cobweb",
+        "rainbowebs:light_blue_cobweb",
+        "rainbowebs:cyan_cobweb",
+        "rainbowebs:blue_cobweb",
+        "rainbowebs:purple_cobweb",
+        "rainbowebs:pink_cobweb",
+        "rainbowebs:magenta_cobweb",
+        "rainbowebs:light_gray_cobweb",
+        "rainbowebs:gray_cobweb",
+        "rainbowebs:brown_cobweb",
+	"minecraft:cobweb"
+    ]
+}
